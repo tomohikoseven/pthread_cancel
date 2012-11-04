@@ -1,0 +1,4 @@
+bin_PROGRAMS=test_pthread_cancel
+test_pthread_cancel_SOURCES=main.c
+test_pthread_cancel_LDADD=-lpthread
+
